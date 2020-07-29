@@ -1,0 +1,56 @@
+.flex-container{
+    display: flex;
+    background-color: yellow;
+    border: dashed;
+    justify-content: space-between; //divides space equally between each item
+}
+
+.flex-container-2{
+    display: flex;
+    background-color: green;
+    border: dotted;
+}
+
+.flexbox-item{
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    flex-grow: 1;// flexible to change the size of the item depending upon the size
+}
+
+.grid-item:hover{
+    background-color:pink;
+}
+
+.flexbox-item-1{
+    font-size: xx-large;
+}
+
+.flexbox-item-3{
+    font-size: xx-large;
+    text-align: center;
+    border: 3px solid;
+    background-color: paleturquoise;
+}
+
+.flexbox-item-2{
+    text-align: right;
+    font-size: xx-large;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color:pink;
+    padding: 20px;
+    height: auto;
+    grid-gap: 20px; // space between grid items
+  }
+  
+  .grid-item {
+    background-color: #00ffffcc;
+    border: 1px solid pink;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
